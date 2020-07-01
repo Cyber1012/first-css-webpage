@@ -8,6 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Poppins&display=swap" rel="stylesheet" />
   </head>
   <body>
+
+    <div id="loading-wrap">
+      <h1 id="loading">Loading...</h1>
+    </div>
+
     <div class="top-container">
       <img class="top-cloud" src="images/cloud.png" alt="cloud" />
       <h1 class="im-eagan">I'm Eagan</h1>
@@ -28,7 +33,12 @@
       <div class="skill-row">
         <img class="coding" src="images/code.png" alt="coding" />
         <h3 class="learning-web-dev">I'm learning web developing!</h3>
-        <p class="when-i-was-ten">When I was 10, I wanted to learn on how to code, so almost 3 months ago I started learning Web Developing, even tough I don't know if I'm gonna do that in life, it's a start for my programing career.</p>
+        <p class="when-i-was-ten">
+          When I was 10, I wanted to learn on how to code,
+          so I started learning a special kind of coding, Web Developing.
+          I know that when I grow up I'm going to be a great programmer,
+          so wish me luck.
+        </p>
         <p>
           (Icon made by <a href="https://www.flaticon.com/authors/smartline">Smartline</a>!)
         </p>
@@ -37,8 +47,8 @@
         <img class="html" src="images/browser.png" alt="html">
         <h3 class="i-know-code">I know how to code <span class="html5">HTML!</span></h3>
         <p class="learning-html">
-          Around two and a half months ago, I started learning HTML and around one and a half months ago, I finished learning intermidiate HTML
-          and now I can code stuff like this text.
+          Around when i was around 11, I started learning HTML and I've made some huge progressions from then,
+          like this website right here!
         </p>
         <p>
           (Icon made by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a>!)
@@ -62,8 +72,14 @@
     <a class="footer-link" href="index.html">My Website</a>
     <br />
     <a class="footer-link" href=https://cyber1012.github.io/First-Website/>My First Website</a>
-    <p class="copyright">© 2019 Eagan.F</p>
+    <p class="copyright">© 2019-2020 Eagan F</p>
   </div>
 
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </body>
+
+  <script type="text/javascript">$("#loading-wrap").remove();</script>
+
 </html>
