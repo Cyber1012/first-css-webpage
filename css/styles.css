@@ -175,3 +175,22 @@ p{
 .copyright{
   color: #f6769;
 }
+
+/* ID SELECTORS */
+
+#loading-wrap{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: skyBlue;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 8% 3%;
+}
+
+#loading{
+  color: grey;
+  font-size: 10rem;
+}
